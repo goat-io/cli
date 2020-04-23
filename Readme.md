@@ -1,15 +1,13 @@
-# Goat - Fluent
+# Goat - Package Template
 
-A TS library to give you wrapper Fluent methods for API and general App building. It takes care of all the heavy work so you can focus on creating amazing ideas.
-
-Fluent will help you develop faster in any Framework
+This could be your amazing Readme
 
 ### Installing
 
-To install this package in your project, you can use the following command within your terminal.
+Just clone this repo!
 
 ```
-npm install --global @goatlab/fluent
+git clone https://github.com/goat-io/ts-package-template.git
 ```
 
 ### Documentation
