@@ -1,5 +1,5 @@
 # Changelog
 
-## v0.2.4
+## v0.1.0
 
-Initial Release
+Initial Template

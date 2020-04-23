@@ -21,13 +21,20 @@
     "preversion": "npm run lint"
   },
   "keywords": [
-    "goat",
+    "Goat",
     "fluent",
-    "loopback"
+    "template",
+    "Node",
+    "JS",
+    "TS",
+    "package",
+    "generator"
   ],
   "author": "ignacio.cabrera@goatlab.io",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@goatlab/fluent": "^0.2.6"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.25",
     "@types/node": "^13.1.6",
