@@ -4,7 +4,7 @@ Use your terminal to create and manage your Goat projects and libraries
 
 ### Installing
 
-Just clone this repo!
+This CLI just be installed globally to create new Goat projects
 
 ```
 npm install -g @goatlab/cli
