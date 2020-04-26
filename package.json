@@ -1,6 +1,6 @@
 {
   "name": "@goatlab/cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Control your Goat apps using any terminal",
   "homepage": "https://docs.goatlab.io",
   "author": "ignacio.cabrera@goatlab.io",
