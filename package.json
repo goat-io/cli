@@ -1,8 +1,14 @@
 {
-  "name": "@goatlab/ts-package-template",
+  "name": "@goatlab/cli",
   "version": "0.1.0",
-  "description": "Template for generating TS based packages",
+  "description": "Control your Goat apps using any terminal",
   "homepage": "https://docs.goatlab.io",
+  "author": "ignacio.cabrera@goatlab.io",
+  "preferGlobal": true,
+  "license": "MIT",
+  "bin": {
+    "goat": "./dist/index.js"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
@@ -30,10 +36,8 @@
     "package",
     "generator"
   ],
-  "author": "ignacio.cabrera@goatlab.io",
-  "license": "MIT",
   "dependencies": {
-    "@goatlab/fluent": "^0.2.6"
+    "@goatlab/fluent": "^0.2.7"
   },
   "devDependencies": {
     "@types/jest": "^24.0.25",

@@ -1,13 +1,13 @@
-# Goat - Package Template
+# Goat - CLI
 
-This could be your amazing Readme
+Use your terminal to create and manage your Goat projects and libraries
 
 ### Installing
 
 Just clone this repo!
 
 ```
-git clone https://github.com/goat-io/ts-package-template.git
+npm install -g @goatlab/cli
 ```
 
 ### Documentation
