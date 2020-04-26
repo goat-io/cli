@@ -28,15 +28,19 @@ export const newProject = async (cmd, options) => {
   await Bash.execute(`git clone ${repo} ${answers.appName || name}`)
   spinner.succeed()
 
-  const spinner2 = Bash.spinner('Removing git tracking')
-  await Bash.execute(`cd ${answers.appName || name} && rm -rf .git`)
+  const spinner2 = Bash.spinner('Preparing git')
+  await Bash.execute(`cd ${answers.appName || name} && rm -rf .git && git init`)
   spinner2.succeed()
 
-  const spinner3 = Bash.spinner('Installing packages (this takes a while!)')
-  await Bash.execute(`cd ${answers.appName || name} &&  npm install`)
+  const spinner3 = Bash.spinner('Setting env variables')
+  await Bash.execute(`cd ${answers.appName || name} && cp env.example .env`)
   spinner3.succeed()
+
+  const spinner4 = Bash.spinner('Installing packages (this takes a while!)')
+  await Bash.execute(`cd ${answers.appName || name} &&  npm install`)
+  spinner4.succeed()
 
   console.log('\nYour Goat project is ready!. Enter the folder and start it!\n')
   console.log(`\t cd ${answers.appName || name} \n`)
-  console.log('\t goat dev\n')
+  console.log('\t goat serve\n')
 }
