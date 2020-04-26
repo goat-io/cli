@@ -12,4 +12,4 @@ npm install -g @goatlab/cli
 
 ### Documentation
 
-To learn how to use this visit the [Goat Docs](https://docs.goatlab.io)
+To learn how to use this visit the [Goat Docs](https://docs.goatlab.io/#/0.1.0/getting-started/installation)
