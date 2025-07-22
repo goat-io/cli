@@ -37,12 +37,12 @@
     "generator"
   ],
   "dependencies": {
-    "@goatlab/fluent": "^0.2.8"
+    "@goatlab/fluent": "^0.7.43"
   },
   "devDependencies": {
     "@types/jest": "^24.0.25",
     "@types/node": "^13.1.6",
-    "jest": "^24.9.0",
+    "jest": "^30.0.4",
     "prettier": "^1.19.1",
     "ts-jest": "^24.3.0",
     "tslint": "^5.20.1",
